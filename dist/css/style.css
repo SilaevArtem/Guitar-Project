@@ -1,0 +1,1561 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'MontserratT';
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratT';
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+html {
+  font-family: 'MontserratT';
+  font-weight: regular;
+}
+
+/* line 28, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 33, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+body {
+  min-height: 100%;
+}
+
+/* line 35, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background: #F0F0F0;
+  padding-top: 16px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* line 42, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 48, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.main-section__logo {
+  width: 134px;
+}
+
+/* line 50, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  -ms-flex-direction: row;
+}
+
+/* line 54, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 33px;
+}
+
+/* line 58, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 65, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  font-family: bold;
+}
+
+/* line 69, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+}
+
+/* line 72, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 74, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 79, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 81, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wrapper__img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 84, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  width: 565.95px;
+  height: 220px;
+  background-color: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 1;
+}
+
+/* line 95, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  top: 160px;
+  left: -30px;
+  width: 618.43px;
+  height: 220px;
+  background-color: #F28B64;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 106, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  width: 608.97px;
+  height: 220px;
+  background-color: #e2e2e2;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 119, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.right-wrapper {
+  position: absolute;
+  width: 372px;
+  top: 150px;
+  right: 76px;
+}
+
+/* line 124, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 127, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+  font-family: bold;
+}
+
+/* line 130, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 134, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 137, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.icons__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #5290EA;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-right: 17px;
+}
+
+/* line 147, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.icons__items:last-child {
+  margin-right: 0px;
+}
+
+/* line 149, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.icons__items i {
+  font-size: 21px;
+}
+
+/* line 152, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+}
+
+/* line 155, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.title__line {
+  width: 65px;
+  position: absolute;
+  bottom: 0px;
+  border: 1px solid black;
+  margin: 0;
+}
+
+/* line 162, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 164, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background-color: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  font-family: bold;
+}
+
+/* line 175, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 178, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 180, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.buttons__text {
+  font-size: 16px;
+}
+
+/* line 183, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+/* line 192, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 195, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.elipse__subtract {
+  width: 129px;
+  height: 129px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 200, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 204, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section {
+  min-height: 700px;
+  overflow: hidden;
+}
+
+/* line 207, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section__container {
+  position: relative;
+}
+
+/* line 209, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section__cards-box {
+  display: inline-flex;
+}
+
+/* line 211, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 25px;
+  padding-top: 75px;
+  font-family: bold;
+}
+
+/* line 215, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section__text {
+  font-size: 32px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 130px;
+  right: 60px;
+}
+
+/* line 222, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section__icons-item {
+  margin-right: 235px;
+}
+
+/* line 224, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 226, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 90px;
+  right: -85px;
+  -webkit-filter: blur(4px);
+}
+
+/* line 231, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 220px;
+  right: 1040px;
+  -webkit-filter: blur(4px);
+}
+
+/* line 237, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.cards-item {
+  margin-right: 33px;
+  position: relative;
+  width: 360px;
+  height: 315px;
+  background-color: #E7E7E7;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 29px;
+}
+
+/* line 248, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.cards-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 250, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.cards-item__img {
+  display: flex;
+  flex-direction: center;
+}
+
+/* line 254, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.cards-item_orange {
+  background-color: #F28B64;
+}
+
+/* line 257, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.cards-item_blue {
+  background-color: #5290EA;
+}
+
+/* line 260, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 263, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.icons-item__img {
+  width: 80px;
+  margin-right: 16px;
+}
+
+/* line 266, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.icons-item__text {
+  font-size: 16px;
+}
+
+/* line 268, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 36px;
+  font-family: bold;
+}
+
+/* line 272, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.third-section {
+  min-height: 800px;
+  background-color: #F2F2F2;
+}
+
+/* line 275, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.third-section__container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+/* line 283, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wpapper-content__title {
+  padding-left: 220px;
+  padding-top: 29px;
+  font-family: bold;
+}
+
+/* line 287, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wpapper-content__first-elipse {
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  top: 420px;
+  left: 470px;
+  z-index: 1;
+  -webkit-filter: blur(2px);
+}
+
+/* line 295, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wpapper-content__second-elipse {
+  width: 158px;
+  height: 158px;
+  position: absolute;
+  top: 255px;
+  left: 125px;
+  z-index: 1;
+}
+
+/* line 302, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wpapper-content__third-elipse {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 200px;
+  left: 210px;
+  z-index: 0;
+}
+
+/* line 309, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wpapper-content__third-elipse .elipse__subtract {
+  width: 62px;
+  height: 62px;
+}
+
+/* line 312, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.left-wpapper-content__fird-elipse {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  z-index: 1;
+  top: 530px;
+  left: 590px;
+  -webkit-filter: blur(4px);
+}
+
+/* line 321, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.right-wrapper-content {
+  max-width: 479px;
+}
+
+/* line 323, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.right-wrapper-content__title {
+  margin-bottom: 20px;
+  font-family: bold;
+}
+
+/* line 326, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.right-wrapper-content__text {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+/* line 329, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.title__line_bot {
+  bottom: 80px;
+  width: 35px;
+}
+
+/* line 333, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.title__line_dot {
+  width: 45px;
+}
+
+/* line 337, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.footer__container {
+  position: relative;
+  min-height: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 343, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -70px;
+  top: -70px;
+}
+
+/* line 347, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+  font-family: bold;
+}
+
+@media (max-width: 1199px) {
+  /* line 352, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 354, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 10px;
+  }
+  /* line 356, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 560px;
+  }
+  /* line 358, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 361, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__img {
+    width: 750px;
+  }
+  /* line 363, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 367, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 370, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 373, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    right: 35px;
+  }
+  /* line 376, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .cards-item {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 379, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 270px;
+  }
+  /* line 382, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
+  /* line 384, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__text {
+    font-size: 30px;
+    right: 20px;
+  }
+  /* line 388, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__icons-item {
+    margin-right: 160px;
+  }
+  /* line 391, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__title {
+    padding-top: 24px;
+  }
+  /* line 393, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__title {
+    padding-left: 150px;
+  }
+  /* line 396, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__second-elipse {
+    left: 63px;
+  }
+  /* line 399, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__third-elipse {
+    top: 198px;
+    left: 122px;
+  }
+  /* line 402, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__first-elipse {
+    top: 420px;
+    left: 265px;
+  }
+  /* line 405, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__fird-elipse {
+    top: 583px;
+    left: 447px;
+  }
+  /* line 408, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 672px;
+  }
+  /* line 410, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .footer__container {
+    min-height: 210px;
+  }
+  /* line 412, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .footer__img {
+    height: 285px;
+    left: -23px;
+    top: -55px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 419, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 422, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .text {
+    font-size: 16px;
+  }
+  /* line 425, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .title__line {
+    width: 44px;
+  }
+  /* line 428, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 510px;
+  }
+  /* line 430, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section__nav-container {
+    height: 45px;
+  }
+  /* line 432, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section__logo {
+    width: 90px;
+  }
+  /* line 435, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 0px;
+    top: 80px;
+  }
+  /* line 438, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 427px;
+    right: -64px;
+  }
+  /* line 444, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__img {
+    width: 550px;
+  }
+  /* line 446, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 449, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 410px;
+    height: 130px;
+  }
+  /* line 452, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 458, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    width: 300px;
+    top: 93px;
+    right: 0px;
+  }
+  /* line 464, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    margin-bottom: 20px;
+  }
+  /* line 468, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .icons__items {
+    width: 30px;
+    height: 30px;
+  }
+  /* line 474, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .title {
+    font-size: 50px;
+  }
+  /* line 480, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 20px;
+    width: 103px;
+    height: 40px;
+    font-size: 12px;
+  }
+  /* line 486, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .buttons__icon-btn img {
+    margin-right: 8px;
+    width: 40px;
+  }
+  /* line 489, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .buttons__text {
+    font-size: 14px;
+  }
+  /* line 492, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .elipse {
+    width: 150px;
+    height: 150px;
+  }
+  /* line 495, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .elipse_dig {
+    width: 170px;
+    height: 170px;
+  }
+  /* line 498, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .elipse__subtract {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 502, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 460px;
+  }
+  /* line 504, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__title {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 507, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__text {
+    font-size: 25px;
+    right: 0px;
+    top: 90px;
+  }
+  /* line 511, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__icons-item {
+    margin-right: 60px;
+  }
+  /* line 513, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__icons-item img {
+    width: 70px;
+    margin-right: 15px;
+  }
+  /* line 516, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 40px;
+  }
+  /* line 518, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    left: -65px;
+    top: 200px;
+  }
+  /* line 524, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .cards-item {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 529, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 215px;
+  }
+  /* line 535, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__title {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+  /* line 539, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__first-elipse {
+    height: 100px;
+    width: 100px;
+    top: 427px;
+    left: 150px;
+  }
+  /* line 545, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__second-elipse {
+    width: 130px;
+    height: 130px;
+    left: 5px;
+    top: 285px;
+  }
+  /* line 550, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__third-elipse {
+    width: 100px;
+    height: 100px;
+    top: 245px;
+    left: 65px;
+  }
+  /* line 555, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__third-elipse .elipse__subtract {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 559, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__fird-elipse {
+    width: 60px;
+    height: 60px;
+    top: 583px;
+    left: 323px;
+  }
+  /* line 565, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .title__line_bot {
+    top: 50px;
+  }
+  /* line 568, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .footer__img {
+    height: 260px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 574, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 576, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 30%;
+    background: linear-gradient(143.92deg, #ed7a50 14.85%, #4889ea 53.25%, #2c2c2c 85.74%);
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  /* line 585, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .nav-menu__list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  /* line 591, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 595, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+  }
+  /* line 601, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    background: rgba(0, 0, 0, 0.411);
+    display: block;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 607, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 610, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .hamburger_active {
+    position: fixed;
+    z-index: 23;
+  }
+  /* line 613, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 615, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 617, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 619, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+    z-index: 25;
+  }
+  /* line 623, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
+  }
+  /* line 626, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 400px;
+  }
+  /* line 634, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 91px;
+    top: 16px;
+  }
+  /* line 637, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 350px;
+    right: -48px;
+  }
+  /* line 643, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__img {
+    width: 400px;
+  }
+  /* line 645, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 280px;
+    height: 90px;
+    top: 80px;
+  }
+  /* line 649, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 310px;
+    height: 100px;
+    top: 80px;
+  }
+  /* line 653, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 280px;
+    height: 100px;
+    top: 90px;
+    left: 20px;
+  }
+  /* line 659, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    width: 156px;
+    top: 35px;
+  }
+  /* line 662, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .right-wrapper__icons-box {
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  /* line 665, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .right-wrapper__title {
+    margin-bottom: 12px;
+  }
+  /* line 667, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  /* line 671, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 674, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .icons__items {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+  }
+  /* line 678, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .icons__items i {
+    font-size: 17px;
+  }
+  /* line 681, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .title {
+    font-size: 35px;
+  }
+  /* line 683, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .title__line {
+    width: 25px;
+  }
+  /* line 685, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 689, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    width: 105px;
+    height: 40px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  /* line 696, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .buttons__icon-btn img {
+    width: 40px;
+  }
+  /* line 701, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .elipse {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 706, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .elipse__subtract {
+    width: 65px;
+    height: 65px;
+  }
+  /* line 713, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 315px;
+  }
+  /* line 716, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__container {
+    text-align: center;
+  }
+  /* line 719, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__text {
+    font-size: 15px;
+    right: 8px;
+    top: 60px;
+  }
+  /* line 723, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__icons-item {
+    margin-right: 35px;
+  }
+  /* line 726, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .second-section__icons-item img {
+    width: 55px;
+    margin-right: 7px;
+  }
+  /* line 730, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .cards-item {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 12px;
+  }
+  /* line 736, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 145px;
+  }
+  /* line 742, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 12px;
+    text-align: center;
+  }
+  /* line 745, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 25px;
+  }
+  /* line 748, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 550px;
+  }
+  /* line 750, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .third-section__container {
+    padding-top: 35px;
+  }
+  /* line 753, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__title {
+    font-size: 42px;
+    padding-right: 50px;
+    padding-left: 70px;
+  }
+  /* line 757, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__first-elipse {
+    width: 75px;
+    height: 75px;
+    top: 335px;
+    left: 145px;
+  }
+  /* line 762, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__second-elipse {
+    width: 100px;
+    height: 100px;
+    top: 230px;
+  }
+  /* line 766, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__third-elipse {
+    width: 75px;
+    height: 75px;
+    top: 200px;
+  }
+  /* line 770, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__third-elipse .elipse__subtract {
+    width: 35px;
+    height: 35px;
+  }
+  /* line 773, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .left-wpapper-content__fird-elipse {
+    width: 35px;
+    height: 35px;
+    top: 452px;
+    left: 265px;
+  }
+  /* line 783, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .right-wrapper-content__text {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  /* line 786, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .title__line_bot {
+    top: 32px;
+  }
+  /* line 789, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .footer__img {
+    height: 184px;
+  }
+  /* line 792, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .footer__container {
+    min-height: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 798, ../../../../../Users/artemiohossedeposmotrello/Downloads/Work/Project-2/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
